@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loto Acertos - Jogos Prontos por Augusto Torres</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+        .hero-gradient { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .card-gradient { background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%); }
+        .number-circle { 
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            box-shadow: 0 8px 32px rgba(79, 70, 229, 0.3);
+        }
+        .floating { animation: float 6s ease-in-out infinite; }
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        .glow { box-shadow: 0 0 40px rgba(79, 70, 229, 0.3); }
+        .text-shadow { text-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Hero Section -->
+    <section class="hero-gradient min-h-screen flex items-center relative overflow-hidden">
+        <!-- Elementos decorativos flutuantes -->
+        <div class="absolute top-20 left-10 w-20 h-20 bg-white/10 rounded-full floating"></div>
+        <div class="absolute top-40 right-20 w-32 h-32 bg-white/5 rounded-full floating" style="animation-delay: -2s;"></div>
+        <div class="absolute bottom-20 left-1/4 w-16 h-16 bg-white/10 rounded-full floating" style="animation-delay: -4s;"></div>
+        
+        <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+            <div class="text-white">
+                <div class="inline-block bg-white/20 backdrop-blur-sm rounded-full px-6 py-2 mb-6">
+                    <span class="text-sm font-medium">✨ Estratégias do Maior Ganhador</span>
+                </div>
+                <h1 class="text-5xl lg:text-7xl font-bold mb-6 text-shadow leading-tight">
+                    Loto<span class="text-yellow-300">Acertos</span>
+                </h1>
+                <p class="text-xl lg:text-2xl mb-4 text-blue-100 font-light">
+                    Jogos Prontos por <span class="font-semibold text-yellow-300">Augusto Torres</span>
+                </p>
+                <p class="text-lg mb-8 text-blue-100 max-w-lg leading-relaxed">
+                    Descubra como aumentar suas chances na Lotofácil com análises estratégicas de quem já conquistou os maiores prêmios da história
+                </p>
+                <a href="https://pay.cakto.com.br/9Hmoznr" class="inline-block bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-2xl text-lg hover:bg-yellow-300 transition-all duration-300 transform hover:scale-105 glow">
+                    🎯 Quero os Jogos Prontos
+                </a>
+            </div>
+            
+            <!-- Mockup Interativo -->
+            <div class="relative">
+                <div class="bg-white/10 backdrop-blur-lg rounded-3xl p-8 border border-white/20">
+                    <div class="bg-gray-900 rounded-2xl p-6 mb-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-white font-bold text-lg">📱 Loto Acertos</h3>
+                            <span class="bg-green-500 w-3 h-3 rounded-full animate-pulse"></span>
+                        </div>
+                        <div class="bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl p-4 mb-4">
+                            <p class="text-white text-sm font-medium mb-2">Jogo Estratégico de Hoje</p>
+                            <div class="grid grid-cols-5 gap-2">
+                                <div class="number-circle text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">03</div>
+                                <div class="number-circle text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">07</div>
+                                <div class="number-circle text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">14</div>
+                                <div class="number-circle text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">19</div>
+                                <div class="number-circle text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">25</div>
+                            </div>
+                        </div>
+                        <div class="flex justify-between text-gray-400 text-xs">
+                            <span>📊 Probabilidade: Alta</span>
+                            <span>⏰ Atualizado agora</span>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="inline-flex items-center bg-white/20 rounded-full px-4 py-2">
+                            <div class="w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse"></div>
+                            <span class="text-white text-sm">Análise em tempo real</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre o Projeto -->
+    <section class="py-20 bg-white relative">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <div class="inline-block bg-blue-100 text-blue-600 px-6 py-2 rounded-full font-medium mb-4">
+                    💡 Como Funciona
+                </div>
+                <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+                    Um Grupo de <span class="text-blue-600">Estratégia</span>, Não de Promessas
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                    O Loto Acertos existe para democratizar estratégias inteligentes de loteria, baseadas na experiência real do maior ganhador da história
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-8">
+                    <div class="flex items-start space-x-4">
+                        <div class="bg-blue-100 w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0">
+                            <span class="text-2xl">🎯</span>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Jogos Analisados Diariamente</h3>
+                            <p class="text-gray-600">Receba combinações estratégicas todos os dias, sem precisar estudar padrões complexos</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start space-x-4">
+                        <div class="bg-purple-100 w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0">
+                            <span class="text-2xl">📊</span>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Método Comprovado</h3>
+                            <p class="text-gray-600">Estratégias desenvolvidas por quem já conquistou os maiores prêmios da loteria brasileira</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start space-x-4">
+                        <div class="bg-green-100 w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0">
+                            <span class="text-2xl">⚡</span>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Economia de Tempo</h3>
+                            <p class="text-gray-600">Pare de perder tempo analisando - foque apenas em jogar com estratégia</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card-gradient rounded-3xl p-8 border border-gray-200">
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-2xl">
+                        <h4 class="font-bold text-gray-900 mb-3">💰 Sobre o Investimento</h4>
+                        <p class="text-gray-700 leading-relaxed">
+                            Este valor é apenas para manutenção do site e ferramentas, garantindo que todos tenham acesso contínuo aos jogos e estratégias. Nosso objetivo é ajudar, não lucrar.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <div class="inline-block bg-blue-100 text-blue-600 px-6 py-2 rounded-full font-medium mb-4">
+                    💬 Depoimentos
+                </div>
+                <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+                    O que dizem os <span class="text-blue-600">participantes</span>
+                </h2>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-3xl p-8 border border-gray-200 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="flex items-center mb-6">
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face&auto=format" alt="Maria S." class="w-14 h-14 rounded-full border-2 border-pink-200 object-cover">
+                        <div class="ml-4">
+                            <h4 class="font-bold text-gray-900">Maria S.</h4>
+                            <p class="text-sm text-gray-500">Acertou 14 pontos - R$ 1.247,89</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic leading-relaxed">"Gente, não acredito! Depois de anos tentando outros grupos e métodos que não davam em nada, finalmente acertei 14 pontos com os jogos do Augusto! Muito obrigada, esse grupo realmente funciona! 🙏"</p>
+                    <div class="flex text-yellow-400 mt-4">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-3xl p-8 border border-gray-200 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="flex items-center mb-6">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face&auto=format" alt="João P." class="w-14 h-14 rounded-full border-2 border-blue-200 object-cover">
+                        <div class="ml-4">
+                            <h4 class="font-bold text-gray-900">João P.</h4>
+                            <p class="text-sm text-gray-500">Acertou 14 pontos - R$ 1.893,67</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic leading-relaxed">"Cara, que alegria! Já tinha perdido a esperança depois de tantos grupos furados. Mas o método do Augusto é diferente mesmo - acertei 14 pontos na segunda semana! Valeu demais, agora vou continuar seguindo as estratégias! 💪"</p>
+                    <div class="flex text-yellow-400 mt-4">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-3xl p-8 border border-gray-200 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="flex items-center mb-6">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face&auto=format" alt="Ana L." class="w-14 h-14 rounded-full border-2 border-purple-200 object-cover">
+                        <div class="ml-4">
+                            <h4 class="font-bold text-gray-900">Ana L.</h4>
+                            <p class="text-sm text-gray-500">Acertou 14 pontos - R$ 1.654,23</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic leading-relaxed">"Pessoal, estou emocionada! Depois de gastar dinheiro em vários cursos e grupos que só prometiam, finalmente encontrei algo que funciona de verdade. Acertei 14 pontos seguindo exatamente as orientações! Augusto, você mudou minha vida! ❤️"</p>
+                    <div class="flex text-yellow-400 mt-4">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Urgência - Ganhos Semanais -->
+    <section class="py-16 bg-gradient-to-r from-green-600 to-emerald-700">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center text-white mb-12">
+                <div class="inline-block bg-white/20 backdrop-blur-sm rounded-full px-6 py-2 mb-4">
+                    <span class="text-sm font-medium">🎯 Resultados Reais</span>
+                </div>
+                <h2 class="text-3xl lg:text-4xl font-bold mb-4">
+                    Nossos Membros Estão Ganhando <span class="text-yellow-300">TODA SEMANA!</span>
+                </h2>
+                <p class="text-xl text-green-100 max-w-3xl mx-auto">
+                    Enquanto você está pensando, outros estão lucrando com as estratégias do Augusto
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
+                    <div class="text-center">
+                        <div class="text-4xl mb-3">💰</div>
+                        <h3 class="text-white font-bold text-lg mb-2">Esta Semana</h3>
+                        <p class="text-green-200 text-sm mb-3">23 membros acertaram 14 pontos</p>
+                        <div class="text-2xl font-bold text-yellow-300">R$ 34.567,89</div>
+                        <p class="text-green-200 text-xs">em prêmios distribuídos</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
+                    <div class="text-center">
+                        <div class="text-4xl mb-3">🏆</div>
+                        <h3 class="text-white font-bold text-lg mb-2">Semana Passada</h3>
+                        <p class="text-green-200 text-sm mb-3">31 membros acertaram 14 pontos</p>
+                        <div class="text-2xl font-bold text-yellow-300">R$ 47.892,34</div>
+                        <p class="text-green-200 text-xs">em prêmios distribuídos</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
+                    <div class="text-center">
+                        <div class="text-4xl mb-3">🎯</div>
+                        <h3 class="text-white font-bold text-lg mb-2">Último Mês</h3>
+                        <p class="text-green-200 text-sm mb-3">127 membros acertaram 14 pontos</p>
+                        <div class="text-2xl font-bold text-yellow-300">R$ 198.456,78</div>
+                        <p class="text-green-200 text-xs">em prêmios distribuídos</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-8">
+                <p class="text-green-100 text-lg font-medium">
+                    ⚡ <strong>R$ 14,90</strong> pode se transformar em <strong>R$ 1.500+</strong> já na primeira semana!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Preço e Oferta com Bônus -->
+    <section class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <div class="inline-block bg-red-100 text-red-600 px-6 py-2 rounded-full font-medium mb-6">
+                    🔥 Oferta Especial - Últimas 24 Horas
+                </div>
+                <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+                    Acesso ao <span class="text-blue-600">Loto Acertos</span>
+                </h2>
+                <p class="text-xl text-gray-600">
+                    + Bônus Exclusivos que Valem Mais que o Investimento
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-8 items-start">
+                <!-- Preço Principal -->
+                <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-3xl p-8 border-2 border-blue-200">
+                    <div class="text-center mb-6">
+                        <div class="bg-red-500 text-white px-4 py-1 rounded-full text-sm font-bold mb-4 inline-block">
+                            PROMOÇÃO RELÂMPAGO
+                        </div>
+                        <p class="text-gray-600 mb-2">De:</p>
+                        <p class="text-3xl text-gray-400 line-through font-bold">R$ 197,00</p>
+                    </div>
+                    
+                    <div class="text-center mb-6">
+                        <p class="text-gray-600 mb-2">Por apenas:</p>
+                        <div class="flex items-center justify-center">
+                            <span class="text-2xl text-gray-700 mr-2">R$</span>
+                            <span class="text-6xl font-bold text-green-600">14</span>
+                            <span class="text-3xl text-green-600">,90</span>
+                        </div>
+                        <p class="text-sm text-gray-500 mt-2">Menos que um lanche no shopping!</p>
+                    </div>
+                    
+                    <div class="bg-yellow-100 border border-yellow-300 rounded-xl p-4 mb-6">
+                        <p class="text-yellow-800 font-medium text-sm text-center">
+                            ⚡ Economia de R$ 182,10 - Apenas hoje!
+                        </p>
+                    </div>
+                    
+                    <div class="space-y-3 text-left text-gray-700 mb-6">
+                        <div class="flex items-center">
+                            <span class="text-green-500 mr-3">✅</span>
+                            <span>Jogos estratégicos diários</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-green-500 mr-3">✅</span>
+                            <span>Análises do Augusto Torres</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-green-500 mr-3">✅</span>
+                            <span>Suporte completo no WhatsApp</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-green-500 mr-3">✅</span>
+                            <span>Acesso imediato e vitalício</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Bônus Exclusivos -->
+                <div class="space-y-4">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">
+                        🎁 Bônus Exclusivos (Valor: R$ 347,00)
+                    </h3>
+                    
+                    <div class="bg-gradient-to-r from-purple-100 to-pink-100 rounded-2xl p-6 border-2 border-purple-200">
+                        <div class="flex items-start">
+                            <div class="bg-purple-500 text-white w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 mr-4">
+                                <span class="text-xl">🎯</span>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 mb-2">BÔNUS #1: Planilha de Controle de Ganhos</h4>
+                                <p class="text-gray-700 text-sm mb-2">Controle seus investimentos e lucros como um profissional</p>
+                                <span class="bg-purple-500 text-white px-3 py-1 rounded-full text-xs font-bold">Valor: R$ 97,00</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gradient-to-r from-green-100 to-emerald-100 rounded-2xl p-6 border-2 border-green-200">
+                        <div class="flex items-start">
+                            <div class="bg-green-500 text-white w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 mr-4">
+                                <span class="text-xl">📊</span>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 mb-2">BÔNUS #2: E-book "Segredos da Lotofácil"</h4>
+                                <p class="text-gray-700 text-sm mb-2">Estratégias avançadas que Augusto nunca revelou publicamente</p>
+                                <span class="bg-green-500 text-white px-3 py-1 rounded-full text-xs font-bold">Valor: R$ 127,00</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gradient-to-r from-yellow-100 to-orange-100 rounded-2xl p-6 border-2 border-yellow-200">
+                        <div class="flex items-start">
+                            <div class="bg-yellow-500 text-white w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 mr-4">
+                                <span class="text-xl">⚡</span>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 mb-2">BÔNUS #3: Grupo VIP no Telegram</h4>
+                                <p class="text-gray-700 text-sm mb-2">Acesso ao grupo exclusivo com dicas em tempo real</p>
+                                <span class="bg-yellow-500 text-white px-3 py-1 rounded-full text-xs font-bold">Valor: R$ 123,00</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gradient-to-r from-red-100 to-pink-100 rounded-2xl p-4 border-2 border-red-200 text-center">
+                        <p class="text-red-700 font-bold text-lg">
+                            🔥 TOTAL EM BÔNUS: R$ 347,00
+                        </p>
+                        <p class="text-red-600 text-sm">
+                            Você paga apenas R$ 14,90 e leva R$ 544,00 em valor!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="https://pay.cakto.com.br/9Hmoznr" class="inline-block bg-green-600 text-white font-bold px-16 py-6 rounded-2xl text-2xl hover:bg-green-700 transition-all duration-300 transform hover:scale-105 glow mb-6">
+                    💳 QUERO GARANTIR AGORA POR R$ 14,90
+                </a>
+                
+                <div class="bg-gray-100 rounded-xl p-4 max-w-md mx-auto">
+                    <p class="text-gray-700 text-sm font-medium mb-2">
+                        ⏰ Esta oferta expira em:
+                    </p>
+                    <div class="flex justify-center space-x-4 text-red-600 font-bold">
+                        <div class="text-center">
+                            <div class="text-2xl" id="hours">23</div>
+                            <div class="text-xs">HORAS</div>
+                        </div>
+                        <div class="text-2xl">:</div>
+                        <div class="text-center">
+                            <div class="text-2xl" id="minutes">47</div>
+                            <div class="text-xs">MIN</div>
+                        </div>
+                        <div class="text-2xl">:</div>
+                        <div class="text-center">
+                            <div class="text-2xl" id="seconds">32</div>
+                            <div class="text-xs">SEG</div>
+                        </div>
+                    </div>
+                </div>
+
+                <script>
+                    // Countdown timer
+                    function startCountdown() {
+                        // Set countdown to 24 hours from now
+                        const countdownTime = new Date().getTime() + (24 * 60 * 60 * 1000);
+                        
+                        const timer = setInterval(function() {
+                            const now = new Date().getTime();
+                            const distance = countdownTime - now;
+                            
+                            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                            
+                            document.getElementById("hours").innerHTML = hours.toString().padStart(2, '0');
+                            document.getElementById("minutes").innerHTML = minutes.toString().padStart(2, '0');
+                            document.getElementById("seconds").innerHTML = seconds.toString().padStart(2, '0');
+                            
+                            if (distance < 0) {
+                                clearInterval(timer);
+                                // Reset to 24 hours when it reaches zero
+                                startCountdown();
+                            }
+                        }, 1000);
+                    }
+                    
+                    // Start the countdown when page loads
+                    startCountdown();
+                </script>
+                
+                <p class="text-gray-600 text-sm mt-4">
+                    🔒 Pagamento 100% seguro • 🎯 Acesso instantâneo • 💎 Garantia de 7 dias
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="py-20 bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 relative overflow-hidden">
+        <div class="absolute inset-0 bg-black/20"></div>
+        <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+            <h2 class="text-4xl lg:text-6xl font-bold text-white mb-6 text-shadow">
+                Pronto para Jogar com <span class="text-yellow-300">Estratégia</span>?
+            </h2>
+            <p class="text-xl text-blue-100 mb-8 max-w-2xl mx-auto leading-relaxed">
+                Junte-se a centenas de pessoas que já estão jogando de forma mais inteligente
+            </p>
+            <a href="https://pay.cakto.com.br/9Hmoznr" class="inline-block bg-yellow-400 text-gray-900 font-bold px-12 py-5 rounded-2xl text-xl hover:bg-yellow-300 transition-all duration-300 transform hover:scale-105 glow">
+                🚀 Quero entrar no Loto Acertos
+            </a>
+            <p class="text-blue-200 text-sm mt-4">
+                ✅ Acesso imediato • ✅ Jogos diários • ✅ Suporte completo
+            </p>
+        </div>
+    </section>
+
+    <!-- Aviso Legal -->
+    <section class="py-12 bg-gray-100">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="bg-white rounded-2xl p-8 border-l-4 border-gray-400">
+                <h3 class="text-lg font-bold text-gray-900 mb-4 flex items-center">
+                    <span class="text-2xl mr-3">📋</span>
+                    Transparência Total
+                </h3>
+                <p class="text-gray-700 leading-relaxed">
+                    O Loto Acertos é um grupo de estudos estratégicos que visa aumentar as chances através de análises estatísticas. <strong>Não prometemos prêmios garantidos</strong>, pois a loteria sempre envolve sorte. Oferecemos estratégias mais inteligentes baseadas em padrões estudados pelo maior ganhador da história.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8 mb-12">
+                <div class="md:col-span-2">
+                    <h3 class="text-3xl font-bold mb-4">Loto<span class="text-yellow-400">Acertos</span></h3>
+                    <p class="text-gray-300 mb-6 max-w-md">
+                        Estratégias inteligentes para aumentar suas chances na Lotofácil, desenvolvidas pelo maior ganhador da história.
+                    </p>
+                    <div class="flex space-x-4">
+                        <div class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center">
+                            <span class="text-sm">📧</span>
+                        </div>
+                        <div class="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center">
+                            <span class="text-sm">📱</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4 text-yellow-400">Suporte</h4>
+                    <div class="space-y-3 text-gray-300">
+                        <p>📧 Lotoacertos@gmail.com</p>
+                        <p>📱 (82) 99671-8727</p>
+                        <p>⏰ Seg-Sex: 9h às 18h</p>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4 text-yellow-400">Sobre Augusto</h4>
+                    <p class="text-gray-300 text-sm">
+                        Maior ganhador da história da loteria brasileira, desenvolveu métodos únicos de análise estratégica.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8 text-center">
+                <p class="text-gray-400 text-sm">
+                    © 2024 Loto Acertos. Todos os direitos reservados. | Este site não possui vínculo com a Caixa Econômica Federal.
+                </p>
+            </div>
+        </div>
+    </footer>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'964546bf415f5226',t:'MTc1MzM3OTU5OS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
